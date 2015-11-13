@@ -85,5 +85,5 @@ task wrapper(type: Wrapper) {
     gradleVersion = '1.12'
 }
 
-startScripts { mainClassName = 'org.example.cities.Application' } and it worked this time.
+task startScripts { mainClassName = 'org.example.cities.Application' }
 
